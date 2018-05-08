@@ -1,4 +1,4 @@
 
-function clear(val){
-    console.log("fuck u")
+function clear(){
+    document.getElementById("txt").innerHTML = "";
 }

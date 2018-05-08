@@ -1,6 +1,6 @@
 var result = document.querySelector(".result");
 function getVal(val) {
-  if (val.value != "+" || val.value != "-" || val.value != "=") {
+  if (val.value != "+" && val.value != "-" && val.value != "=") {
     result.value += val.value;
   }else{
       var final = 0
@@ -14,4 +14,6 @@ function getVal(val) {
       }
   }
 }
+
+
 

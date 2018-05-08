@@ -13,7 +13,7 @@
     <h1>Calculator</h1>
     <div class="calculator">
         <div class="cal-border">
-            <input class="result" type="text">
+            <input class="result" type="text" id="txt">
             <div class="button-holder">
                 <button class="num-bt" onclick="getVal(this)" value="1" id="one">1</button>
                 <button class="num-bt" onclick="getVal(this)" value="2" id="two">2</button>
@@ -40,7 +40,7 @@
             <br>
             <div class="button-holder">
                 <button class="num-bt" onclick="getVal(this)" id="eq">=</button>
-                <button class="num-bt" onclick="clear(this)" value=''>C</button>
+                <button class="num-bt" onclick="clear()" id="clr">C</button>
             </div>
         </div>
 
