@@ -1,0 +1,25 @@
+{
+    "name": "calculator",
+    "version": "1.0.0",
+    "description": "this an win app calculator",
+    "main": "server.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/deepshikha1301/WebDev.git"
+    },
+    "keywords": [
+        "calculator"
+    ],
+    "author": "deepshikha",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/deepshikha1301/WebDev/issues"
+    },
+    "homepage": "https://github.com/deepshikha1301/WebDev#readme",
+    "dependencies": {
+        "electron": "^2.0.0"
+    }
+}
