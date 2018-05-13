@@ -8,8 +8,9 @@ let win
 
 function calInit() {
     win = new BrowserWindow({
-        height: 800,
-        width: 500
+        height: 650,
+        width: 500,
+        autoHideMenuBar: true,
     });
 
     win.loadURL(url.format({
