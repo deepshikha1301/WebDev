@@ -5,7 +5,7 @@ var tmpNum1, tmpNum2;
 
 function inputValue(){
   var inValue = inputField.value;
-  return parseInt(inValue);
+  return parseFloat(inValue);
 }
 
 function operations(tmp){
@@ -45,7 +45,8 @@ function getVal(el){
     tmpNum2 = inputValue();
     operations(operation);
   }
-  else{
+  else
+  {
     inputField.value += el.value;
   }
 }
